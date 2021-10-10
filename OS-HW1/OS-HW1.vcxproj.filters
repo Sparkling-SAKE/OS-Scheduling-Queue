@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\SchedulingQueue">
+      <UniqueIdentifier>{36373b5d-831c-4ef7-b2c3-754af3018329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SchedulingQueue\Running">
+      <UniqueIdentifier>{013c1804-4fde-40c4-b76e-72a023e89dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SchedulingQueue\Ready">
+      <UniqueIdentifier>{47827efc-69c3-4347-a562-61da50d02803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SchedulingQueue\Wait">
+      <UniqueIdentifier>{eae5f73f-1a29-43e6-9487-705012b4a356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SchedulingQueue\Job">
+      <UniqueIdentifier>{c2d6837c-cf5a-47b3-8bbd-df23e602e3df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PCB">
+      <UniqueIdentifier>{51ab8cc7-7e44-40f7-8fff-8daf5ae49f94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CRunning.cpp">
+      <Filter>소스 파일\SchedulingQueue\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="CReadyQueue.cpp">
+      <Filter>소스 파일\SchedulingQueue\Ready</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaitQueue.cpp">
+      <Filter>소스 파일\SchedulingQueue\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="CJobQueue.cpp">
+      <Filter>소스 파일\SchedulingQueue\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedList.cpp">
+      <Filter>소스 파일\SchedulingQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CPCB.cpp">
+      <Filter>소스 파일\PCB</Filter>
+    </ClCompile>
+    <ClCompile Include="CPCBManager.cpp">
+      <Filter>소스 파일\PCB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="state.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CRunning.h">
+      <Filter>소스 파일\SchedulingQueue\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="CReadyQueue.h">
+      <Filter>소스 파일\SchedulingQueue\Ready</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaitQueue.h">
+      <Filter>소스 파일\SchedulingQueue\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="CJobQueue.h">
+      <Filter>소스 파일\SchedulingQueue\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="CLinkedList.h">
+      <Filter>소스 파일\SchedulingQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="CPCB.h">
+      <Filter>소스 파일\PCB</Filter>
+    </ClInclude>
+    <ClInclude Include="CPCBManager.h">
+      <Filter>소스 파일\PCB</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

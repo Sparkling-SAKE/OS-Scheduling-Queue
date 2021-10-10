@@ -1,0 +1,23 @@
+#pragma once
+
+enum class PCB_STATE
+{
+	PS_NONE,
+	PS_RUN,
+	PS_READY,
+	PS_WAITING,
+	PS_WAITING_END,
+	PS_JOB,
+	PS_LAST
+};
+
+enum class MAIN_MENU
+{
+	MM_NONE,
+	MM_IO_EVENT,
+	MM_IO_FINISH,
+	MM_TERMINATE,
+	MM_RUN,
+	MM_EXIT,
+	MM_LAST
+};
